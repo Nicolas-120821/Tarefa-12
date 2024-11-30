@@ -1,0 +1,1 @@
+class CarrinhoPage { adicionarProduto(produto) { cy.get(`[data-produto-nome="${produto}"]`).click(); } } export default new CarrinhoPage();
